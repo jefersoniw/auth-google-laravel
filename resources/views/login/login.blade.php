@@ -2,6 +2,7 @@
 
 @section('title', 'Login')
 @section('content')
+
     <div class="row">
         <div class="col-lg-4 col-10 col-sm-8 m-auto login-form">
 
@@ -47,7 +48,7 @@
                     </div>
                     <div class="row m-auto">
                         <div class="col-md-12">
-                            <a href="#">
+                            <a href="{{ $authUrl }}">
                                 <img src="{{ asset('clear_theme/img/google.png') }}" alt="Google" width="20%">
                             </a>
                         </div>
