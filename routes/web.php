@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');
+Route::get('/register', [LoginController::class, 'register'])->name('login.register');
