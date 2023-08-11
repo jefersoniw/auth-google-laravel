@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{{ asset('/bootstrap-4.0.0/dist/css/bootstrap.min.css') }}">
 
 
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body id="sign-in">
