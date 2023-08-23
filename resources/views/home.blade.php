@@ -10,6 +10,14 @@
 
 <body>
 
+    <h3>CONSEGUI LOGAR NO SISTEMA</h3>
+    <h5>{{ auth()->user()->name }}</h5>
+    <p>
+        <a href="{{ route('login.logout') }}" class="btn btn-danger">
+            Sair
+        </a>
+    </p>
+
 </body>
 
 </html>

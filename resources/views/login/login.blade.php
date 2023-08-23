@@ -13,7 +13,7 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-12">
-                        <form action="" id="authentication" method="post" class="login_validator">
+                        <form action="{{ route('login.store') }}" id="authentication" method="post" class="login_validator">
                             @csrf
 
                             <div class="form-group">
